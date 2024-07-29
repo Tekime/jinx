@@ -40,7 +40,7 @@ header, nav, main, footer {
 
 nav ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
     list-style-type: none;
     padding: 0;
 }
