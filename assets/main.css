@@ -21,6 +21,8 @@ body, .container {
     font-family: 'Noto Sans Variable', sans-serif;
     font-weight: 500;
     font-style: normal;
+    background-color: #12101a;
+    color: #fff;
 }
 h1 { font-family: 'Press Start 2P', 'Noto Sans Variable', sans-serif; }
 
@@ -35,20 +37,21 @@ h1 { font-family: 'Press Start 2P', 'Noto Sans Variable', sans-serif; }
 header, nav, main, footer {
     width: 1024px;
     max-width: 100%;
-    margin: 20px;
 }
-
+header { margin-top: 50px; }
+main { min-height: 640px; }
 nav ul {
     display: flex;
     justify-content: left;
     list-style-type: none;
     padding: 0;
 }
-
 nav ul li {
     margin: 0 10px;
 }
-
+nav ul li a { color: rgb(217, 255, 0); text-decoration: none; }
+nav ul li a:hover { text-decoration: underline; }
+nav { border-bottom: solid 1px #ddd; }
 section {
     margin-bottom: 20px;
 }
