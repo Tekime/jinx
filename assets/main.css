@@ -25,6 +25,7 @@ body, .container {
     color: #fff;
 }
 h1 { font-family: 'Press Start 2P', 'Noto Sans Variable', sans-serif; }
+h3.subtitle { font-family: 'Press Start 2P', 'Noto Sans Variable', sans-serif; font-size: 0.7em; }
 
 .container {
     display: flex;
@@ -48,12 +49,22 @@ nav ul {
 }
 nav ul li {
     margin: 0 10px;
+    padding: 5px 10px;
+    border-bottom: solid 2px transparent;
+    transition: border-bottom ease-in-out 0.5s;
 }
 nav ul li a { color: rgb(217, 255, 0); text-decoration: none; }
-nav ul li a:hover { text-decoration: underline; }
+nav ul li a:hover {
+    
+}
 nav { border-bottom: solid 1px #ddd; }
 section {
     margin-bottom: 20px;
+}
+
+.nav-active {
+    border-bottom: solid 2px yellow;
+    transition: border-bottom ease-in-out 0.5s;
 }
 
 @media (max-width: 768px) {
