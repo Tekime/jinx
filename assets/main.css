@@ -49,13 +49,19 @@ nav ul {
 }
 nav ul li {
     margin: 0 10px;
-    padding: 5px 10px;
+
+}
+nav ul li a { 
+    color: rgb(217, 255, 0); 
+    text-decoration: none; 
+    padding: 5px 10px; 
+    display: inline-block;
     border-bottom: solid 2px transparent;
     transition: border-bottom ease-in-out 0.5s;
 }
-nav ul li a { color: rgb(217, 255, 0); text-decoration: none; }
 nav ul li a:hover {
-    
+    border-bottom: solid 2px yellow;
+    transition: border-bottom ease-in-out 0.5s;
 }
 nav { border-bottom: solid 1px #ddd; }
 section {
@@ -63,8 +69,7 @@ section {
 }
 
 .nav-active {
-    border-bottom: solid 2px yellow;
-    transition: border-bottom ease-in-out 0.5s;
+    
 }
 
 @media (max-width: 768px) {
